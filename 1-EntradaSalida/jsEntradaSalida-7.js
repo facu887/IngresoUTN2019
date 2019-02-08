@@ -28,13 +28,22 @@ function multiplicar()
 { 
 var numero1;
 var numero2;
-	
+var multiplicar; 
+numero1 = parseInt (document.getElementById("numeroUno").value);
+numero2 = parseInt (document.getElementById("numeroDos").value);
+multiplicar = numero1 * numero2;
+alert ("La multiplicación es " + multiplicar);
 }
 
 function dividir()
 {
 var numero1;
 var numero2;
-	
+var dividir;
+numero1 = parseInt(document.getElementById("numeroUno").value);
+numero2 = parseInt(document.getElementById("numeroDos").value);
+dividir = numero1 / numero2;
+alert ("La division es " + dividir);	
 }
+
 
